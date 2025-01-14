@@ -4,13 +4,13 @@ Peter Dobbins
 
 ## Tools Installed
 
-[Link to CMake Version Screenshot](screenshots/cmake.png)
+![Link to CMake Version Screenshot](screenshots/cmake.png)
 
-[Link to pandoc Version Screenshot](screenshots/pandoc.png)
+![Link to pandoc Version Screenshot](screenshots/pandoc.png)
 
-[Link to pdfTeX Screenshot](screenshots/pdflatex.png)
+![Link to pdfTeX Screenshot](screenshots/pdflatex.png)
 
-[Link to clang-format Version Screenshot](screenshots/clang-format.png)
+![Link to clang-format Version Screenshot](screenshots/clang-format.png)
 
 ## C++ Source Files
 
@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
 
 ## Compiling
 
-[Link to CMake Build Screenshot](screenshots/cmake_build.png)
+![Link to CMake Build Screenshot](screenshots/cmake_build.png)
 
 ## Custom Makefile
 
@@ -51,4 +51,4 @@ report.pdf: report.md
 	pandoc --from=markdown --to=latex --toc -o $@ $^ --shift-heading-level-by -1 --number-sections
 ```
 
-[Link to Makefile Run Screenshot](screenshots/makefile.png)
+![Link to Makefile Run Screenshot](screenshots/makefile.png)
